@@ -133,9 +133,9 @@ t2 = Sys.time()
 ##time per image
 (t2 - t1)/nr.images
 
-head(All.Data)
+head(all.data)
 
 ** save data
-write.table(All.Data, "HemiphotOutput.csv", sep = ",")
+write.table(all.data, "HemiphotOutput.csv", sep = ",")
 
 
